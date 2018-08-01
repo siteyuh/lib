@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.414em;
+  color: #747474;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック  Medium', meiryo, sans-serif;
+}
+
+.onepage-pagination {
+  position: fixed;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+a[target="_blank"]::after {
+  padding-left: 0.3em;
+  font-family: "Font Awesome 5 Free";
+ font-weight: 900;
+  content: "\f35d";
+
+}
+#container {
+/*
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+*/
+}
+.gray {
+  background-color: #eee;
+}
+.white {
+  background-color: #fff;
+}
+#sample ul {
+  list-style: none;
+  padding: 0;
+}
+#sample a {
+  text-decoration: none;
+}
+nav .mobmenu, nav .closebtn {
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+nav i {
+  font-size: 32px;
+}
+header {
+  position: fixed;
+  top: 10px;
+  left: 0px;
+  width: 100%;
+  font-size: 1em;
+}
+header h1 {
+  text-align: left;
+  text-indent: 10px;
+  letter-spacing: 1px;
+  animation-name: bounceInUp;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 161%;
+}
+nav ul {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 10;
+  background-color: #000;
+  opacity: .8;
+  list-style: none;
+}
+.onepage-pagination {
+  opacity: 0.4;
+}
+section h2 {
+  padding-bottom: 2em;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+footer i, footer li {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer li {
+  margin: 0.5em 0.5em 0.5em 0em;
+}
+
+footer li:first-child {
+  margin-left: 0.5em;
+}
+footer a {
+  padding: 0.5em;
+}
+
+.page {
+/*
+  width: 100%;
+  height: 100%;
+*/
+}
+.page textarea {
+  font-family: monospace;
+  width: calc( 100% - .5em );
+  letter-spacing: 1px;
+  padding: .25em;
+  font-size: 0.75em;
+}
+
+.pager {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 0;
+}
+.pager li {
+  display: block;
+  margin: 20px;
+}
+.pager li a {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #aaa;
+  border-radius: 50%;
+}
+.pager .is-current a {
+  background: #666;
+}
+.scroll {
+  width: 20px;
+  margin: auto;
+  opacity: .5;
+}
+
+
+
+
+.homecontents li a {
+  font-size: 0.8em;
+}
+
+

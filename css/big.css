@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+.page {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.page ul {
+  padding-left: 1em;
+}
+
+nav ul {
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  height: 2em;
+  justify-content: space-between;
+}
+footer li {
+  margin-top: 0.5em;
+}
+.scroll {
+  position: absolute;
+  bottom: 2em;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 100px;
+}
+
+#sample ul {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1em;
+}
+
+#sample li {
+  width: 30%;
+  margin-right: 5%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#sample li:nth-child(3n) {
+  margin-right: 0;
+}
